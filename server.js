@@ -48,6 +48,6 @@ app.get('/update/item', function (req, res) {
   });
 });
 
-app.listen(1000, function () {
-  console.log('Server is started on port 1000');
+app.listen(2000, function () {
+  console.log('Server is started on port 2000');
 });
