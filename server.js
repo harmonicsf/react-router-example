@@ -53,5 +53,5 @@ app.get('/update/item', function (req, res) {
 });
 
 app.listen(port, ip, function () {
-  console.log('Server is started on port 2000');
+  console.log('Server is started on port '+port);
 });
