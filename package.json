@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --hot --inline --history-api-fallback",
-    "server": "node server.js",
+    "start": "webpack-dev-server --progress --colors --hot --inline --history-api-fallback & node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -25,6 +24,7 @@
     "babel-preset-react": "6.3.13",
     "babel-preset-stage-0": "6.5.0",
     "shortid": "2.2.6",
-    "webpack": "1.12.12"
+    "webpack": "1.12.12",
+    "webpack-dev-server": "^1.4.7"
   }
 }
